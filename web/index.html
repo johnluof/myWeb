@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>侧边栏菜单</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<!--
+        	作者：905899741@qq.com
+        	时间：2018-06-30
+        	描述：
+        	
+        	掌握
+        	1.网页组件重用思想
+        	2.掌握博客页常用组件布局方法
+        	3.掌握文章内容页的布局方法
+        	
+        -->
+        <header>
+       		<div class="container">
+       			<div class="left">
+       				<a href="#">LOGO</a>
+       			</div>
+       			<label id="checkboxs-switch" for="checkboxs">菜单</label>
+       			<input id="checkboxs" type="checkbox" name="" id="" value="" />
+       			<div class="rigth">
+       				<ul>
+       					<li><a href="#">首页</a></li>
+       					<li><a href="#">产品服务</a></li>
+       					<li><a href="#">新闻动态</a></li>
+       					<li><a href="#">关于我们</a></li>
+       					<li><a href="#">联系我们</a></li>
+       					<li id="list-switch"><a href="#">侧边栏菜单</a></li>
+       				</ul>
+       			</div>
+       		</div>
+        </header>
+        <div class="baner"></div>
+        <!--
+        	作者：905899741@qq.com
+        	时间：2018-07-01
+        	描述：组件之延迟加载
+        	1.将xsrc的地址替换到src中去
+        	//当图片进入到可视区域的时候，将图片的地址替换到src
+        	
+        	2.获取图片元素到最外层定点的距离
+        	
+        	3.获取页面可视区域的最低点的位置
+        -->
+      	<section style="height: 500px;border: 1px solid #ccc;width: 1280px;margin: 0 auto;"></section>
+        <section class="container">
+        	<div class="photo">
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case5.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case6.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case7.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case8.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case9.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case5.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case6.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case7.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case8.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case9.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case5.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case6.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case7.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case8.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        	<dl>
+	        		<dt><img class="photo_list" xsrc="img/case9.jpg" src="img/wait_load.jpg"/></dt>
+	        		<dd>延迟加载</dd>
+	        	</dl>
+	        </div>
+        </section>
+        
+        <div class="shadow"></div>
+        <!--
+        	作者：905899741@qq.com
+        	时间：2018-07-01
+        	描述：组件侧边栏菜单
+        -->
+        <div id="sidebar">
+        	<ul>
+        		<li><a href="#">侧边栏菜单</a></li>
+        		<li><a href="#">侧边栏菜单</a></li>
+        		<li><a href="#">侧边栏菜单</a></li>
+        		<li><a href="#">侧边栏菜单</a></li>
+        		<li><a href="#">侧边栏菜单</a></li>
+        		<li><a href="#">侧边栏菜单</a></li>
+        	</ul>
+        </div>
+        
+        <!--
+        	作者：905899741@qq.com
+        	时间：2018-07-01
+        	描述：组件之返回顶部
+        -->
+        <button class="back-to-top" type="button">返回顶部</button>
+        <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+        <!--<script src="js/tool.js" type="text/javascript" charset="utf-8"></script>-->
+        <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+		    $(".TPop").click(function () {
+		        $(".Cooperationbox").fadeIn(300);
+		    });
+			
+			var offLeft=$(".nav ul li:eq(2)").offset().left;
+			$(".downmenu.widbai").css({"width":$(window).width(),"left":-offLeft+70});
+		</script>
+	</body>
+</html>
